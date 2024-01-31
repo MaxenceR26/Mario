@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="13" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="27">
+ <tileset firstgid="1" source="../../../../../Downloads/terrain.tsx"/>
+ <tileset firstgid="484" source="../../../../téléchargement.tsx"/>
+ <layer id="1" name="Calque de Tuiles 1" width="13" height="10">
+  <data encoding="csv">
+384,384,384,384,384,384,384,384,384,384,384,384,384,
+384,384,384,384,384,384,384,384,384,384,384,384,384,
+384,384,372,372,372,372,372,372,372,372,372,384,384,
+384,384,372,372,372,372,384,372,372,372,372,384,384,
+384,384,384,384,384,372,384,372,384,384,384,384,384,
+384,384,384,384,384,372,384,372,384,384,384,384,384,
+384,384,384,384,384,372,384,372,384,384,384,384,384,
+384,384,384,384,384,372,372,372,384,384,384,384,384,
+384,384,384,384,384,384,384,384,384,384,384,384,384,
+384,384,384,384,384,384,384,384,384,384,384,384,384
+</data>
+ </layer>
+ <layer id="2" name="Calque de Tuiles 2" width="13" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,862,863,0,0,0,0,0,862,863,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="3" name="Calque d'Objets 1">
+  <object id="1" name="spawn_second_level" x="240" y="122">
+   <point/>
+  </object>
+  <object id="2" name="exit_house" x="302" y="68.6667" width="30" height="28">
+   <ellipse/>
+  </object>
+  <object id="3" name="exit_house" x="78.5833" y="68.75" width="30" height="28">
+   <ellipse/>
+  </object>
+  <object id="5" name="SpawnerBox" type="SpawnerBox" x="160" y="212">
+   <point/>
+  </object>
+  <object id="15" name="Walls" type="Collision" x="0.5625" y="2.91667" width="63.3333" height="319.333"/>
+  <object id="16" name="Walls" type="Collision" x="192.167" y="96.2085" width="31.5" height="127.401"/>
+  <object id="17" name="Walls" type="Collision" x="-0.409074" y="129.045" width="159.826" height="190.621"/>
+  <object id="18" name="Walls" type="Collision" x="257.379" y="130.273" width="95.7424" height="188.621"/>
+  <object id="19" name="Walls" type="Collision" x="157.485" y="256.031" width="99.6364" height="64.8631"/>
+  <object id="20" name="Walls" type="Collision" x="352.333" y="1.3335" width="63.3333" height="319.333"/>
+  <object id="22" name="Walls" type="Collision" x="-2" y="0.666667" width="402.667" height="63.2292"/>
+  <object id="26" name="SpawnerBox" type="SpawnerBox" x="274" y="116">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

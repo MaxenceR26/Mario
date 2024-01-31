@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="10" height="7" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="16">
+ <tileset firstgid="1" source="../../../../../Downloads/terrain.tsx"/>
+ <tileset firstgid="484" source="../../../../téléchargement.tsx"/>
+ <layer id="3" name="Calque de Tuiles 2" width="10" height="7">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,384,384,
+0,432,432,432,432,432,432,432,432,384,
+0,432,432,432,432,432,432,432,432,384,
+0,329,329,329,329,329,329,329,329,384,
+0,411,411,411,411,411,411,411,411,384,
+0,432,432,432,432,432,432,432,432,384,
+0,0,0,385,385,385,0,386,384,384
+</data>
+ </layer>
+ <layer id="4" name="Calque de Tuiles 3" width="10" height="7">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,862,863,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="1" name="Calque de Tuiles 1" width="10" height="7">
+  <data encoding="csv">
+384,384,384,384,384,384,384,384,0,0,
+384,405,406,406,406,406,406,406,407,0,
+384,426,0,0,0,0,0,0,428,0,
+384,426,0,0,0,0,0,0,428,0,
+384,426,0,0,0,0,0,0,428,0,
+384,447,448,448,448,448,448,448,449,0,
+384,384,384,384,384,384,384,384,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="Calque d'Objets 1">
+  <object id="1" name="spawn_first_level" x="63.6998" y="116.394">
+   <point/>
+  </object>
+  <object id="4" name="exit_house" x="237.667" y="100" width="30" height="28">
+   <ellipse/>
+  </object>
+  <object id="5" type="Collision" x="-1.33333" y="128.042" width="321.333" height="95.2917"/>
+  <object id="6" type="Collision" x="-1" y="0" width="320.636" height="95.9993"/>
+  <object id="8" type="Collision" x="271.455" y="76.1818" width="48.5455" height="53.0909"/>
+  <object id="9" type="Collision" x="0.909091" y="88.7273" width="51.0653" height="52.7273"/>
+  <object id="14" name="SpawnerBox" type="SpawnerBox" x="100" y="116">
+   <point/>
+  </object>
+ </objectgroup>
+</map>
